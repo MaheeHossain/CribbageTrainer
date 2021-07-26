@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffcc266d-ddc8-4fe5-80dc-4c37a9fe0cc8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JGameGrid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cribbage.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cribbage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cribbage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cribbage.userlibraries" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/BrokeRuleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/HumanPlayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/HumanPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/IPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/LegalPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/LowPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/RandomPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist$Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist$Play.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist$Rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist$Suit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist$Trick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/whist/Whist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cribbage.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/CGMauMau.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/JGameGrid.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigclub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigclub1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigdiamond.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigdiamond1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigheart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigheart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigspade.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/bigspade1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/clubs_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage$MyCardValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage$Rank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage$Segment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage$Suit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/Cribbage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/HumanPlayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/HumanPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/IPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/cribbage/RandomPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/diamonds_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/done30_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/done30_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/done30_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/gameover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/hearts_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/joker1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/joker2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigclub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigclub1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigdiamond.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigdiamond1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigheart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigheart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigspade.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/bigspade1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/clubs_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/cover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/diamonds_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/done30_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/done30_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/done30_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/gameover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/hearts_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/reshuffle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/spades_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/original/text_item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/reshuffle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/spades_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Cribbage/text_item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigclub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigclub1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigdiamond.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigdiamond1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigheart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigheart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigspade.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/bigspade1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/clubs_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/cover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/diamonds_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/done30_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/done30_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/done30_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/gameover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/hearts_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/joker1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/joker2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigclub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigclub1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigdiamond.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigdiamond1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigheart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigheart1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigspade.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/bigspade1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/clubs_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/cover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/diamonds_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/done30_0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/done30_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/done30_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/gameover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/heart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/hearts_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/reshuffle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/spades_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/original/text_item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/reshuffle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades_item_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/spades_item_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprites/text_item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cribbage/Cribbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cribbage/Cribbage.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tZ84vsyjdFUNzCFpIdVVayWEca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffcc266d-ddc8-4fe5-80dc-4c37a9fe0cc8" name="Default Changelist" comment="" />
+      <created>1622965065005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622965065005</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

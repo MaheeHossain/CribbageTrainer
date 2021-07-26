@@ -139,6 +139,8 @@ public class Cribbage extends CardGame {
 
   private ScoringFacade scoringFacade;
 
+  private Hand player0Discard;
+  private Hand player1Discard;
   private Hand player0;
   private Hand player1;
 
@@ -189,6 +191,7 @@ private void deal(Hand pack, Hand[] hands) {
 	for (int i = 0; i < nPlayers; i++) {
 		hands[i].sort(Hand.SortType.POINTPRIORITY, true);
 		/** c) Dealing hands to players */
+		// pw.printf("deal,P%d,%s\n", i, canonical(hands[i]));
 		cribbageObserverBase.update("deal", "P"+i, canonical(hands[i]), null, null,null,null,null,null,null);
 	}
 	layouts[0].setStepDelay(0);
@@ -211,6 +214,7 @@ private void discardToCrib() {
 		/** d) Discarding of cards to crib */
 		cribbageObserverBase.update("discard", "P"+player.id, canonical(currHand), null, null, null, null, null, null, null);
 		crib.sort(Hand.SortType.POINTPRIORITY, true);
+		// System.out.println(canonical(crib));
 		currHand = new Hand(deck);
 	}
 }
@@ -258,6 +262,9 @@ public class Segment {
 			newSegment = false;  // Not ready for new segment yet
 		}
 
+		public boolean isGo() {
+			return go;
+		}
 }
 
 private void play() {
@@ -266,8 +273,16 @@ private void play() {
 	int currentPlayer = 0; // Player 1 is dealer
 	Segment s = new Segment();
 	s.reset(segments);
+//	scoringFacade = ScoringFacade.getInstance(deck, player0, starter.get(0), s);
+//	scoringFacade.addPlay();
 	while (!(players[0].emptyHand() && players[1].emptyHand())) {
+		// System.out.println("segments.size() = " + segments.size());
+		// System.out.println(s.go + "254");
 		Card nextCard = players[currentPlayer].lay(thirtyone-total(s.segment));
+//		System.out.println(canonical(nextCard));
+//		System.out.print("line 271: ");
+//		scoringFacade.setSegment(s);
+//		System.out.println(scoringFacade.scorePlay());
 		scoringFacade.setSegment(s);
 		if (nextCard == null) {
 			if (s.go) {
@@ -289,6 +304,7 @@ private void play() {
 			/** f) Playing of the cards */
 			s.lastPlayer = currentPlayer; // last Player to play a card in this segment
 			transfer(nextCard, s.segment);
+			// pw.printf("play,P%d,%d,%s\n", currentPlayer, total(s.segment), canonical(nextCard));
 			cribbageObserverBase.update("play", "P"+currentPlayer, null, null, canonical(nextCard), null, null, Integer.toString(total(s.segment)), null, null);
 
 			for (Score score: scoringFacade.scorePlay()) {
@@ -297,17 +313,27 @@ private void play() {
 				cribbageObserverBase.update("score", "P"+currentPlayer, null, score.scoreEvent,null, null,null,null,Integer.toString(scores[currentPlayer]),Integer.toString(score.score));
 			}
 
+//			System.out.println("Printing pair strategy");
+//			PlayScoringRulesStrategy pairStrategy = new PlayPairsStrategy();
+//			System.out.println(pairStrategy.score(s, deck));
+//			System.out.println("Printing run strategy");
+// 			PlayScoringRulesStrategy runStrategy = new PlayRunsStrategy();
+//			System.out.println(runStrategy.score(s, deck));
 			if (total(s.segment) == thirtyone) {
 				// lastPlayer gets 2 points for a 31
 				/** g) Scoring during the play - thirty-one 2 points */
 				s.newSegment = true;
 				currentPlayer = (currentPlayer+1) % 2;
+//				System.out.println("Printing thirty one strategy");
+//				PlayScoringRulesStrategy addToThirtyOneStrategy = new AddToThirtyOneStrategy();
+//				System.out.println(addToThirtyOneStrategy.score(s));
 			} else {
 				/** g) Scoring during the play - 15, run or pairs */
 				// if total(segment) == 15, lastPlayer gets 2 points for a 15
 				if (!s.go) { // if it is "go" then same player gets another turn
 					currentPlayer = (currentPlayer+1) % 2;
 				}
+				// System.out.println(canonical(s.segment));
 			}
 		}
 		if (s.newSegment) {
@@ -321,6 +347,10 @@ private void play() {
 		updateScore((currentPlayer+1) % 2);
 		cribbageObserverBase.update("score", "P"+((currentPlayer+1) % 2), null, score.scoreEvent,null, null,null,null,Integer.toString(scores[((currentPlayer+1) % 2)]),Integer.toString(score.score));
 	}
+	// Score lastToPlay = new Score("play", "go", 1, null);
+//	scores[((currentPlayer+1) % 2)] += lastToPlay.score;
+//	updateScore(((currentPlayer+1) % 2));
+//	cribbageObserverBase.update("score", "P"+((currentPlayer+1) % 2), null, lastToPlay.scoreEvent,null, null,null,null,Integer.toString(scores[((currentPlayer+1) % 2)]),Integer.toString(lastToPlay.score));
 }
 
 void showHandsCrib() {
@@ -344,8 +374,6 @@ void showHandsCrib() {
 		updateScore(1);
 		cribbageObserverBase.update("score", "P"+1, Score.printCards(score.cards), score.scoreEvent,null, null,null,null,Integer.toString(scores[1]),Integer.toString(score.score));
 	}
-	/** h) Showing of the hands and crib */
-	/** i) Scoring during the show */
 	// score crib (for dealer)
 	scoringFacade.setHand(crib);
 	cribbageObserverBase.update("show","P"+1, canonical(crib), null, canonical(starter.get(0)), null, null, null, null, null);
@@ -354,6 +382,8 @@ void showHandsCrib() {
 		updateScore(1);
 		cribbageObserverBase.update("score", "P"+1, Score.printCards(score.cards), score.scoreEvent,null, null,null,null,Integer.toString(scores[1]),Integer.toString(score.score));
 	}
+	/** h) Showing of the hands and crib */
+	/** i) Scoring during the show */
 }
 
   public Cribbage() {
@@ -386,6 +416,7 @@ void showHandsCrib() {
 	  scoringFacade = ScoringFacade.getInstance(deck, player0, null, null);
 	  scoringFacade.addPlay();
 
+	  // System.out.println(canonical(players[0].hand));
 	  starter(pack);
 	  play();
 	  showHandsCrib();
